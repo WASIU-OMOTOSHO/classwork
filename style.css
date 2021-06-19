@@ -1,0 +1,124 @@
+.container{
+	display: flex;
+	background: #f0f0f0;
+}
+
+.image-box{
+	flex: 1;
+	padding: 20px;
+}
+
+.word-box{
+	flex: 20;
+	line-height: 15px;
+	margin-top: 5px;
+}
+
+.list-box{
+	flex: 12;
+	justify-content:stretch;
+}
+
+.list-box ul li{
+	display:inline;
+	margin: 5px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.list-box ul li a{
+				text-decoration: none;
+}
+.container-2{
+	display: flex;
+	background: #052035;
+	justify-content: space-between;
+	height: 500px;
+
+}
+.container-4{
+	display: flex;
+	height: 500px;
+	align-items: center;
+
+}
+
+.container-2 div{
+	padding: 10px;
+	margin: 10px;
+}
+.word-box2{
+
+	flex: 1;
+	color: white;
+	min-height: 
+}
+.explore{
+	font-size: 20px;
+	color:white;
+}
+.word-box2{
+	font-size: 20px;
+	color: white;
+}
+.all-location{
+	display: flex;
+	align-items: flex-end;
+}
+.location1{
+	flex: 1;
+}
+.location2{
+	flex: 1;
+	/*align-items: flex-end;*/
+}
+.form{
+	flex: 1;
+	background: #FFFFFF;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 100px;
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	height: 400px;
+}
+input[type=text] {
+	width: 47%;
+	height: 10%;
+}
+input[type=email] {
+	width: 100%;
+	height: 10%;
+}
+input[type=phonenumber] {
+	width: 100%;
+	height: 10%;
+}
+.button{
+	background: #0069d9;
+	color: white;
+	width: 100%;
+	height:10%;
+	text-decoration: none;
+	font-size: 16px;
+}
+.container-3{
+	display: flex;
+}
+.interview1{
+	flex: 1;
+	padding: 5px;
+	margin: 5px;
+	line-height: 30px;
+}
+.interview2{
+	flex: 1;
+	padding: 5px;
+	margin: 5px;
+	line-height: 30px;
+}
+.wasiu4 img{ border-radius: 50%;
+	width: 30%;
+	padding-left: 20%;
+
+}
